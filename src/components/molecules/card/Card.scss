@@ -1,0 +1,39 @@
+.card {
+  width: fit-content;
+  position: relative;
+  &__img {
+    max-width: 200px;
+    max-height: 350px;
+  }
+  &__delete-button {
+    width: fit-content;
+    position: absolute;
+    top: 10%;
+    left: 120px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    overflow: hidden;
+    outline: none;
+    cursor: pointer;
+  }
+  &__settings {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.229);
+    gap: 20px;
+    z-index: 25;
+    &__buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+}

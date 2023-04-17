@@ -1,44 +1,19 @@
 .app {
-  max-width: 1024px;
-  margin: auto;
-
-  &__color-container {
+  background-color: rgb(10, 10, 17);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+  gap: 1rem;
+  &__gif-list {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
-  }
-
-  &__color-title {
-    min-width: 70px
-  }
-
-  &__color {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    margin: 0px 20px;
-
-    &--main {
-      background-color: var(--main);
-    }
-    &--background {
-      background-color: var(--background);
-    }
-  }
-
-  &__icon-container {
-    display: flex;
-  }
-
-  &__icon-description {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 20px;
-  }
-
-  &__icon {
-    width: 70px;
-    height: 70px;
+    gap: 0.5rem;
   }
 }

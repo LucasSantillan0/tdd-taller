@@ -1,0 +1,21 @@
+.button {
+  display: inline-block;
+  padding: 8px 24px;
+  font-size: 1rem;
+  text-align: center;
+  cursor: pointer;
+  max-height: 55px;
+  border-radius: 4px;
+  &--primary {
+    background-color: #b234b1;
+    color: white;
+    border: none;
+  }
+  &--secondary {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    overflow: hidden;
+    outline: none;
+  }
+}

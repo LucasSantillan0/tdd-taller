@@ -1,0 +1,19 @@
+.input{
+    display: flex;
+    flex-direction: column;
+    max-width: 240px;
+    
+    &__error-message{
+        color: red;
+    }
+    &__textbox{
+        padding:  .25rem;
+        height: 20px;
+        border-radius: 2px;
+        outline: none;
+        border: none;
+        &--error{
+            border: 2px solid red;
+        }
+    }
+}

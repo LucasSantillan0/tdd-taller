@@ -1,0 +1,18 @@
+.empty-gif-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2.5rem 0;
+
+    @media (max-width: 23.5rem) {
+        flex-direction: column;
+        gap: .5rem
+
+    }
+
+    &__description {
+        font-size: 1.5rem;
+    }
+
+}

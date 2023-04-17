@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Empty list warning component Should render well 1`] = `
+<DocumentFragment>
+  <div
+    class="empty-gif-list"
+  >
+    <img
+      alt="warning"
+      class="empty-gif-list__icon"
+      src="warning-icon.svg"
+    />
+    <p
+      class="empty-gif-list__description"
+    >
+      No posee gifs
+    </p>
+  </div>
+</DocumentFragment>
+`;

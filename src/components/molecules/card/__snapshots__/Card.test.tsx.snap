@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card tests Should render the card 1`] = `
+<DocumentFragment>
+  <div>
+    <button
+      class="button button--primary"
+    >
+      <img
+        alt="showDelete-test"
+        src=""
+      />
+    </button>
+    <img
+      alt="gif-test"
+      src=""
+    />
+  </div>
+</DocumentFragment>
+`;
