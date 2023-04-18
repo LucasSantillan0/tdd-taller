@@ -8,3 +8,4 @@ import axios from "axios";
 jest.mock("axios");
 
 export const mockedAxios = axios as jest.Mocked<typeof axios>;
+export const gifExample = { url: "https://www.google.com/example", id: "1" };

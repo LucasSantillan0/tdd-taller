@@ -2,6 +2,7 @@ import AddGif from "../molecules/add-gif/add-gif";
 import Card from "../molecules/card/Card";
 import useHome from "./use-home/use-home";
 import "./home.scss";
+import EmptyListWarning from "../atmos/empty-list-warning/EmptyListWarning";
 
 const Home = () => {
   const { gifs, deleteGif, submitGif } = useHome();
@@ -12,9 +13,10 @@ const Home = () => {
         <AddGif onSubmit={submitGif} />
       </header>
       <section className="home__gif-list">
-        {gifs.map((gif) => (
-          <Card handleDelete={deleteGif} gif={gif} key={gif.id} />
+        {gifs.map((gif, index) => (
+          <Card handleDelete={deleteGif} gif={gif} key={index} />
         ))}
+        {!gifs.length && <EmptyListWarning />}
       </section>
     </main>
   );

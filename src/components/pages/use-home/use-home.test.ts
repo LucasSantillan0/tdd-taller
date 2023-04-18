@@ -1,8 +1,6 @@
 import { renderHook, act } from "@testing-library/react-hooks";
 import useHome from "./use-home";
-import { mockedAxios } from "../../../setupTests";
-
-const gifExample = { url: "https://www.google.com/example", id: "1" };
+import { mockedAxios, gifExample } from "../../../setupTests";
 
 describe("useHome hook", () => {
   test("Should ask for the gifs on start", async () => {
