@@ -5,6 +5,6 @@
 import "@testing-library/jest-dom";
 import axios from "axios";
 
-export const mockedAxios = jest.mock("axios") as unknown as jest.Mocked<
-  typeof axios
->;
+jest.mock("axios");
+
+export const mockedAxios = axios as jest.Mocked<typeof axios>;

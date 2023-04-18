@@ -7,6 +7,4 @@ describe("Input", () => {
   });
   test("Should call onChange", async () => {
   });
-  test("Should show error message", () => {
-  });
 });
